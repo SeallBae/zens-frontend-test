@@ -1,9 +1,11 @@
 .BodyField {
+    height: 45vh;
     margin: 0;
 }
 .joke {
     margin: 0;
-    padding: 7vh 10vw 7vh 10vw;
+    padding: 7vh 20vw 5vh 20vw;
+    font-weight: lighter;
 }
 .line {
     background-color: #ceccc6;
@@ -13,8 +15,29 @@
     margin: 0 auto 0 auto;
 }
 .btn-container {
-    margin: 7vh auto 7vh auto;
+    margin: 5vh auto 10vh auto;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.btn {
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1;
+    border-left: 1;
+    height: 7vh;
+    width: 35vh;
+    color: rgba(231, 240, 251, 255);
+}
+.funny-btn {
+    background-color: rgba(44, 126, 219, 255);
+    border-bottom-color: rgba(28, 105, 192, 255);
+    border-left-color: rgba(107, 164, 229, 255);
+    margin: 0 20px;
+}
+.notfunny-btn {
+    background-color: rgba(41, 179, 99, 255);
+    border-bottom-color: rgba(25, 152, 78, 255);
+    border-left-color: rgba(180, 227, 200, 255);
+    margin: 0 0 0 20px;
 }

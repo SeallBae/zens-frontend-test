@@ -1,3 +1,27 @@
 .FooterField {
-    background-color: blueviolet;
+    height: 25vh;
+    width: 100%;
+    margin: 0;
+    border-top-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr {
+    margin: 0;
+    padding: 0;
+    height: 1;
+    width: 99vw;
+    color: rgb(205, 205, 205);
+}
+.text {
+    width: 60vw;
+    text-align: center;
+    margin: 3vh 0 3vh 0;
+    font-weight: lighter;
+}
+.copyright {
+    text-align: center;
+    margin: 0;
 }

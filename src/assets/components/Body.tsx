@@ -41,8 +41,8 @@ function Body(){
         }
     }
     const notFunnyHandle = () => {
-        //increase joke count
-        if(cookies.Joke < Jokes.length){
+        if(cookies.Joke <= Jokes.length){
+            //increase joke count
             const jokeCount = cookies.Joke + 1;
             setCookie('Joke', jokeCount);
             //not funny count
@@ -56,8 +56,8 @@ function Body(){
             <p className='joke'>{jokecontent}</p>
             <hr className='line'></hr>
             <div className='btn-container'>
-                <button onClick={FunnyHandle}>This is Funny!</button>
-                <button onClick={notFunnyHandle}>This is not funny.</button>
+                <button onClick={FunnyHandle} className='btn funny-btn'>This is Funny!</button>
+                <button onClick={notFunnyHandle} className='btn notfunny-btn'>This is not funny.</button>
             </div>
         </div>
     )

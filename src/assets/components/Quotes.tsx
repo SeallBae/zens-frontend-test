@@ -7,6 +7,5 @@ function Quotes(){
             <p className="secondline">If you joke wrong way, your teeth have to pay. (Serious)</p>
         </div>
     )
-
 }
 export default Quotes;

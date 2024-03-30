@@ -4,7 +4,6 @@ import avatar from '../images/avatar.jpg';
 
 
 function Header(){
-
     return (
         <div className='HeaderField'>
             <img className="logo" src={logo} alt="Logo"/>
@@ -17,6 +16,5 @@ function Header(){
             </div>
         </div>
     )
-
 }
 export default Header;
