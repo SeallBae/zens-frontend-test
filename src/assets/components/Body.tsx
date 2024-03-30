@@ -53,7 +53,7 @@ function Body(){
     }
     return (
         <div className='BodyField'>
-            <p className='joke'>{jokecontent}</p>
+            <p className='joke' key={jokecontent}>{jokecontent}</p>
             <hr className='line'></hr>
             <div className='btn-container'>
                 <button onClick={FunnyHandle} className='btn funny-btn'>This is Funny!</button>

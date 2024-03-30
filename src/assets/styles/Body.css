@@ -6,6 +6,16 @@
     margin: 0;
     padding: 7vh 20vw 5vh 20vw;
     font-weight: lighter;
+    opacity: 0;
+    animation: fadeInAnimation 0.7s ease-in forwards;
+}
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 .line {
     background-color: #ceccc6;
