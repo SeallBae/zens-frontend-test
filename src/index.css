@@ -2,4 +2,5 @@ body {
     margin: 0;
     display: block;
     place-items: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

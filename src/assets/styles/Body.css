@@ -1,3 +1,20 @@
 .BodyField {
-    background-color: aqua;
+    margin: 0;
+}
+.joke {
+    margin: 0;
+    padding: 7vh 10vw 7vh 10vw;
+}
+.line {
+    background-color: #ceccc6;
+    height: 1px;
+    width: 80vh;
+    border: none;
+    margin: 0 auto 0 auto;
+}
+.btn-container {
+    margin: 7vh auto 7vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
